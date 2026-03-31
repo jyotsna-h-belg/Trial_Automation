@@ -1,0 +1,24 @@
+{
+  "name": "trial_automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+   "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jyotsna-h-belg/Trial_Automation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/jyotsna-h-belg/Trial_Automation/issues"
+  },
+  "homepage": "https://github.com/jyotsna-h-belg/Trial_Automation#readme",
+  "devDependencies": {
+    "jest": "^30.3.0"
+  }
+}
