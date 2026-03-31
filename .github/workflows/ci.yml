@@ -28,7 +28,11 @@ jobs:
  
       - name: Install Dependencies
 
-        run: npm install
+        run: npm ci   # 🔥 better than npm install
+ 
+      - name: Fix Permissions (IMPORTANT)
+
+        run: chmod +x ./node_modules/.bin/jest
  
       - name: Run Tests
 
